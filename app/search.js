@@ -1,3 +1,5 @@
+//搜索框 组件
+
 import React ,{Component} from 'react';
 import {View,Text,TextInput,StyleSheet,Image,ListView} from 'react-native';
 

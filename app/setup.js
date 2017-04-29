@@ -13,6 +13,8 @@ import Root from './root';
 const defaultRoute = {
     component: Root,
 };
+
+//顶部导航栏
 var NavigationBarRouteMapper = {
     // 左键
     LeftButton(route, navigator, index, navState) {
@@ -38,11 +40,11 @@ var NavigationBarRouteMapper = {
     },
     // 标题
     Title(route, navigator, index, navState) {
-       // if(index>0){
-       //     return(
-       //           <Search placeholder="搜索" style={{marginTop:0}}/>
-       //     )
-       // }else return null
+       if(index>0){
+           return(
+                 <Text>标题</Text>
+           )
+       }else return null
 
     }
 };

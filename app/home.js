@@ -1,3 +1,5 @@
+//首页 页面
+
 import React ,{Component} from 'react';
 import {View,Text,TextInput,StyleSheet,Image,ListView,TouchableOpacity} from 'react-native';
 import Article from './article'
@@ -19,7 +21,7 @@ export default class Home extends Component{
             id:null
         };
     }
-    _onPress(id)
+    _onPress(id)  //点击事件
     {
         const {navigator} = this.props
         navigator.push({

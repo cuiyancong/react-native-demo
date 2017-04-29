@@ -1,3 +1,5 @@
+//发现 页面
+
 import React ,{Component} from 'react';
 import {View,
     Text,Image,StyleSheet,ScrollView,ListView,Navigator,TouchableOpacity} from 'react-native';

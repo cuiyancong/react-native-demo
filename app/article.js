@@ -1,3 +1,6 @@
+//文章详情
+//没有写具体的页面，只是练习将id传入
+
 import React ,{Component} from 'react';
 import {View,Text,Navigator} from 'react-native';
 import Search from './search'

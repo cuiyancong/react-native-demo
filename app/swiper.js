@@ -1,3 +1,5 @@
+//轮播图组件
+
 import React , {Component} from 'react'
 import {View,Image,Text} from 'react-native'
 import Swiper from 'react-native-swiper'
